@@ -215,7 +215,7 @@ blockquote {
   font-size: 16px;
 }
 
-.curador-box {
+/* .curador-box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -224,7 +224,27 @@ blockquote {
   -ms-flex-item-align: center;
   align-self: center;
   cursor: pointer;
+} */
+
+.curador-box {
+  position: relative;
+  display: inline-block;
+  width: 260px;
+  height: 180px;
+  cursor: pointer;
+  overflow: visible;
 }
+
+
+
+.img-clique-aqui {
+  position: absolute;
+  width: 150px;
+  left: 95px;
+  top: 140px;
+  z-index: 3;
+}
+
 
 .curador-foto {
   width: 80px;
